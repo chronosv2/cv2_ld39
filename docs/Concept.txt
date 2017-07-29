@@ -1,0 +1,26 @@
+Theme: Running out of Power
+
+Robot exploring a facility -- Power is limited. Find batteries and larger capacitors to run longer. Shut down non-vital systems to extend power further.
+
+Core Systems:
+Capacitor: Stores 1000 power.
+CPU: Draws 1 power per second.
+Optical Sensors: Draws 1 power per second.
+Auditory Sensors: Draw 1 power per second.
+Arms: Customizable -- Socket different items into them.
+  Cost 1 power per second base.
+Shield Generator: Adds Damage Resistance. Costs 2 power per second. (Use 1 power per
+  10 points recharge)
+Treads: Allow movement. Cost 0 per second unless moving, which uses 5 per second.
+
+So that means...
+Stationary, all systems on:
+1+1+1+1+2=6
+1000/6=166 seconds of power.
+When moving:
+1+1+1+1+2+5=11
+1000/11=90 seconds of power.
+
+You can safely power off any system except CPU.
+You can reduce power to Treads to cut power usage to 2 while cutting
+  movement speed by 60%.
